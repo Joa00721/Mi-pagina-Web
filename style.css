@@ -1,0 +1,45 @@
+
+     h1{
+         color:aqua;
+     }
+
+
+     .header{
+         background-color: #000;
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .grid{
+         display:flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+
+     .foot{
+         display: flex;
+         justify-content: flex-end;
+     }
+
+     body{
+         background:linear-gradient(#25882d 0%, rgb(255, 255, 255) 100%)
+     }
+
+     .trex{
+         border-radius: 50%;
+         width: 200px;
+         height: 200px;
+     }
+
+     p{
+         font-size: 35px;
+         font-family: cursive;
+         font-weight: 300;
+         z-index: 15;
+     }
+
+     .container{
+         margin: 15px;
+         position: absolute;
+         right: 100px;
+     }
